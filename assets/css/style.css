@@ -8,8 +8,10 @@ body {
 .header {
 	color: #cccccc;
 	background-color: #ffffff;
+	text-align: center;
 	padding: 40px;
 	font-size: 35px;
+
 	
 }
 
@@ -44,7 +46,6 @@ h1 {
 .contact {
 	float:right;
 	font-size: 18px;
-	background-color: red;
 	margin-right: 10px ;
 
 }
@@ -52,15 +53,13 @@ h1 {
 .about {
 	float:right;
 	font-size: 18px;
-		background-color: orange;
-		margin-right: 10px;
+	margin-right: 10px;
 }
 
 .portfolio {
 	float: right;
 	font-size: 18px;
-		background-color: green;
-		margin-right: 10px;
+	margin-right: 10px;
 }
 
 
@@ -73,8 +72,12 @@ h1 {
 	width:100%;
 }
 
-.aboutme {
+.mainbody {
 	width: 610;
 	margin: 0 auto 0 auto;
 	padding: 20px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	color: #777777;
+	margin: ;
 }
