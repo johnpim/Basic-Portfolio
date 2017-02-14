@@ -1,0 +1,80 @@
+body {
+	color:white;
+	margin: 0%;
+	padding: 0%;
+	background-color: #ffffff;
+}
+
+.header {
+	color: #cccccc;
+	background-color: #ffffff;
+	padding: 40px;
+	font-size: 35px;
+	
+}
+
+.pic {
+	height: 200px;
+	width: 200px;
+	padding-right: 10px;
+	float: left;
+}
+
+p {
+	float: none;
+	overflow: auto;
+}
+
+
+.yourname {
+	color: white;	
+	background-color: #4aaaa5;
+	float: left;
+	position: fixed;
+	top: 0%;
+	height: 80px;
+}
+
+h1 {
+	background: #ffffff;
+	color: #4aaaa5;
+
+}
+
+.contact {
+	float:right;
+	font-size: 18px;
+	background-color: red;
+	margin-right: 10px ;
+
+}
+
+.about {
+	float:right;
+	font-size: 18px;
+		background-color: orange;
+		margin-right: 10px;
+}
+
+.portfolio {
+	float: right;
+	font-size: 18px;
+		background-color: green;
+		margin-right: 10px;
+}
+
+
+.footer {
+	text-align :center;
+	background-color: #666666;
+	height: 50px;
+	position: absolute;
+	bottom: 0%;
+	width:100%;
+}
+
+.aboutme {
+	width: 610;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+}
