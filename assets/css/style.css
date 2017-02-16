@@ -1,19 +1,80 @@
-body {
-	color:white;
-	margin: 0%;
-	padding: 0%;
-	background-color: #ffffff;
-}
+
+
+/*---------------------------------About me-----------------------------*/
+
+
 
 .header {
-	color: #cccccc;
-	background-color: #ffffff;
-	text-align: center;
-	padding: 40px;
-	font-size: 35px;
-
-	
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: solid 2px #cccccc;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
 }
+
+.yourname {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 180px;
+	text-align: center;
+	position: absolute;
+	top: 0%;
+	height: 24px;
+	padding: 23px 10px 33px 10px;
+	font-size: 28px;
+	position: fixed;
+	margin-left: 75px;
+}
+
+
+.contact {
+	float: right;
+    margin-right: 240px;
+    padding-top: 30px;
+}
+
+
+.portfolio {
+	float: right;
+    margin-right: 8px;
+    padding-top: 30px;
+}
+
+.about {
+	float: right;
+    margin-right: 8px;
+    padding-top: 30px;
+}
+
+
+.mainbody {
+	width: 50%;
+    position: fixed;
+    top: 130px;
+    left: 76px;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	color: #777777;
+}
+
+
+h1 {
+	background: #ffffff;
+	color: #4aaaa5;
+	margin-bottom: 33px;
+
+}
+
+hr {
+	margin-bottom: 25px;
+}
+
 
 .pic {
 	height: 200px;
@@ -22,62 +83,161 @@ body {
 	float: left;
 }
 
-p {
-	float: none;
-	overflow: auto;
-}
 
-
-.yourname {
-	color: white;	
-	background-color: #4aaaa5;
-	float: left;
-	position: fixed;
-	top: 0%;
-	height: 80px;
-}
-
-h1 {
-	background: #ffffff;
-	color: #4aaaa5;
-
-}
-
-.contact {
-	float:right;
-	font-size: 18px;
-	margin-right: 10px ;
-
-}
-
-.about {
-	float:right;
-	font-size: 18px;
-	margin-right: 10px;
-}
-
-.portfolio {
+.connectwithme {
 	float: right;
-	font-size: 18px;
-	margin-right: 10px;
+    margin-top: 121px;
+    border: solid 1px grey;
+    text-align: center;
+    margin-right: 30px;
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    left: 854px;
+    top: 129px;
+    color: #4aaaa5;
+}
+
+
+.stack {
+	height: 90px;
+    width: 90px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+.linkedin {
+	height: 90px;
+    width: 90px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.github {
+	height: 90px;
+    width: 90px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 
 .footer {
-	text-align :center;
-	background-color: #666666;
-	height: 50px;
-	position: absolute;
-	bottom: 0%;
-	width:100%;
+	float:both;
+	overflow: auto;
+	position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: #666666;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+    left: 0px;
+    border-top: solid 9px #4aaaa5;
+
 }
 
-.mainbody {
-	width: 610;
+h1, .connectwithme, .yourname {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 26px;
+}
+
+/* -------------------------------------------------------------------------------CONTACT----------------------------*/
+
+
+.mainbodyport {
+	width: 50%;
+    position: fixed;
+    top: 130px;
+    left: 76px;
 	margin: 0 auto 0 auto;
 	padding: 20px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
 	color: #777777;
-	margin: ;
+	height: 375px;
 }
+
+
+
+.johnsmith {
+	position: fixed;
+    top: 288px;
+    left: 96px;
+    width: 681px;
+}
+
+
+.email {
+	position: fixed;
+    top: 300px;
+    left: 96px;
+    width: 681px;
+}
+
+.emaillink {
+	position: fixed;
+    width: 681px;
+    top: 345px;
+
+}
+
+.message {
+	position: fixed;
+    top: 360px;
+    width: 681px;
+}
+
+.messagelink {
+	position: fixed;
+    width: 681px;
+    top: 410px;
+}
+
+
+/*-----------------------------------Portfolio--------------------------*/
+
+
+/*.food {
+	width: 100px;
+	height: 150px;
+    float: left;
+    z-index: 1;
+}
+
+.foodtext {
+	float: both;
+	position: fixed;
+    background: #4aaaa5;
+    padding: 12px;
+    text-align: center;
+    width: 176px;
+    height: 12px;
+    float: left;
+    color: white;
+    top: 220px;
+}
+
+.vacation {
+	width: 100px;
+	height: 150px;
+    float: right;
+}
+
+.vacationtext {
+	position: fixed;
+    background: #4aaaa5;
+    padding: 12px;
+    text-align: center;
+    width: 176px;
+    height: 12px;
+    float: left;
+    color: white;
+    top: 220px;
+} 
+
+/*
